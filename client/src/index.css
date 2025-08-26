@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Poppins:ital,wght@0,100;0,300;0,600;0,700;0,800;0,900;1,300;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities; 
+/* import { MdAutoAwesome } from "react-icons/md"; */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+  --breakpoint-sm:920px;
+  --breakpoint-smobile:500px;
+  /* --breakpoint-xxs:600px; */
+  --breakpoint-xsl-986:986px;
+  --breakpoint-xl-1500:1500px;
+  --font-Poppins:'Poppins','sans-serif';
+  --font-Alfa-Slab-One:'Alfa Slab One','sans-serif'
+ 
+  
+
+
+}
+.section-all-center{
+  @apply flex min-h-[100vh] w-full  items-center justify-center
+}
+.max-container{
+  @apply w-full xl-1500:w-[1400px] py-[5em]
+}
+
+
+
+@layer components{
+  .slick-dots{
+    @apply dark:text-white
+  }
+    .head-group{
+      @apply py-[1rem];
+    }
+    .section-center{
+      @apply flex   items-center justify-center  min-h-[80vh] max-xl-1500:px-6;
+    }
+    .section-center-row{
+      @apply flex justify-center  min-h-[90vh] ;
+    }
+.input:focus:valid ~ .label-text{
+  @apply -translate-y-5
+}
+    .menu-li{
+      @apply inline-block 
+    }
+  .text{
+    @apply  text-black relative pb-[2px] text-[16px] font-semibold font-Poppins;
+  }
+  .text::before{
+    @apply content-[''] scale-0 absolute bg-black w-full h-[2px] left-0 bottom-0 transition-all duration-200 ease-in-out
+  }
+  .text:hover::before{
+    @apply scale-[1];
+  }
+  
+  .btn-primary-M{
+    @apply  flex py-[8px] px-4 bg-black rounded-3xl text-white
+  }
+  
+  
+  .banner::before{
+    @apply content-[''] bg-[url(https://www.itl.cat/pngfile/big/33-332418_high-quality-building-wallpaper-full-hd-pictures-19201200.jpg)]  bg-cover bg-no-repeat bg-center  absolute
+     z-[-1] top-0 left-0  w-full h-full overflow-hidden
+  }
+
+
+
+}
+
+
+
+
+
+
+/* .navbar.sticky{
+  @apply  sticky  top-0  bg-white
+} */
+
+
+/* // Tailwind Custom Utility Classes (for use with @apply in your Tailwind CSS file) */
+ .label {
+   @apply block text-sm font-medium text-gray-700 mb-1 dark:text-white;
+ }
+ .s-form-input {
+   @apply w-full px-4 py-2 border border-gray-300 rounded-[3px] focus:outline-none focus:ring-2 focus:ring-blue-400;
+ }
+
+

@@ -1,0 +1,57 @@
+[
+    {
+      service_title: "New Elevator Installation",
+            service_discription: `We provide customized elevator installation services for residential, commercial, and industrial buildings. 
+        Our team ensures a seamless integration of elevators into your property’s infrastructure. 
+        We focus on safety, efficiency, and design to match your building’s aesthetics.`
+            },
+            {
+            service_title: "Elevator Modernization",
+            service_discription: `Upgrade your old elevator systems with modern components for improved safety and performance. 
+        We replace outdated technology with energy-efficient and reliable solutions. 
+        Our modernization enhances the appearance and smooth operation of your lifts.`
+            },
+            {
+            service_title: "Annual Maintenance Contracts (AMC)",
+            service_discription: `Ensure your elevators operate smoothly all year with our tailored AMC packages. 
+        We offer regular inspections, preventive maintenance, and priority support. 
+        Our goal is to reduce downtime and extend the lifespan of your equipment.`
+            },
+            {
+            service_title: "Elevator Repair Services",
+            service_discription: `We offer fast and reliable repair services for all major elevator brands and models. 
+        Our certified technicians diagnose issues accurately and perform necessary repairs promptly. 
+        We prioritize safety and minimal disruption to your daily operations.`
+            },
+            {
+            service_title: "Elevator Interior Renovation",
+            service_discription: `Transform the look and feel of your elevator cabins with our renovation services. 
+        From modern lighting to stylish wall panels and flooring, we upgrade interiors to reflect elegance. 
+        Renovations are carried out with minimal downtime and high attention to detail.`
+            },
+            {
+            service_title: "Lift Inspection & Safety Audits",
+            service_discription: `We conduct comprehensive inspections and audits to ensure your elevators meet safety regulations. 
+        Our experts assess mechanical components, control systems, and emergency features. 
+        A detailed report with actionable recommendations is provided for compliance and safety.`
+            },
+            {
+            service_title: "Custom Elevator Design",
+            service_discription: `Bring your vision to life with our bespoke elevator design services. 
+        We collaborate with architects and clients to create elevators that are both functional and aesthetically pleasing. 
+        Every design is tailored to meet unique building requirements and style preferences.`
+            },
+            {
+            service_title: "Spare Parts Supply",
+            service_discription: `We stock and supply a wide range of genuine elevator spare parts for various brands. 
+        Whether it's mechanical or electronic components, we ensure high-quality and compatibility. 
+        Fast delivery and expert support are available for all your spare part needs.`
+            },
+            {
+            service_title: "Goods & Freight Elevator Services",
+            service_discription: `We design and install robust elevators for transporting goods in commercial and industrial facilities. 
+        These elevators are built to handle heavy loads and withstand rigorous daily use. 
+        Ideal for warehouses, factories, and logistics centers requiring durable lifting solutions.`
+            }
+  ]
+  

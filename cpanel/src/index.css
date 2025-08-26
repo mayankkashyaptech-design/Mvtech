@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Poppins:ital,wght@0,100;0,300;0,600;0,700;0,800;0,900;1,300;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities; 
+
+
+@theme{
+  --breakpoint-sm:998px;
+  --breakpoint-xl-1500:1500px;
+  --breakpoint-xl-1800:1800px;
+  --breakpoint-xxl-2000:2000px;
+  --font-Poppins:'Poppins','sans-serif';
+  --font-Alfa-Slab-One:'Alfa Slab One','sans-serif'
+  
+}
+
+@layer components{
+  .xxl-2000{
+    @apply max-w-[90%] grid-cols-3
+  }
+}
+.section-all-center{
+  @apply flex h-[100vh] w-full  items-center justify-center
+}
+.max-container{
+  @apply w-full xl-1500:w-[1400px] py-[5em]
+}
